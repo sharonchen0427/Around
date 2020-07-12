@@ -10,4 +10,4 @@ jobs:
       - run: |
           docker build -t suemay0427/around .
           docker login -u="$DOCKERHUB_USERNAME" -p="$DOCKERHUB_PASSWORD"
-          docker push your-dockerHub-user/around
+          docker push suemay0427/around
